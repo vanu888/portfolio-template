@@ -1,6 +1,7 @@
 # Portfolio Template
 
-This repository contains a clean and modern portfolio website template built with HTML, CSS, and JavaScript. It features designed to showcase your projects and personal information effectively.Below is an overview and instructions on how to use and customize the template.
+This repository contains a clean and modern portfolio website template built with HTML, CSS, and JavaScript. It features designed to showcase your projects and personal information effectively. Below is an overview and instructions on how to use and customize the template.
+
 
 ## Overview
 
