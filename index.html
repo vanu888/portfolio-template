@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel = "stylesheet" href = "styles.css">
+    
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<main>
+    <!-- about section -->
+    <section id="about">
+        <center><h2>About Me</h2></center>
+        <center><p><b>Welcome to my portfolio website!</b><br>Explore my project. Designed for simplicity and speed</p></center>
+    </section>
+
+    <!-- portfolio section -->
+    <section id="portfolio" class="portfolio">
+        <div class="item">
+            <h3>Project 1</h3>
+            <p>Explore my project. Designed for simplicity and speed</p>
+            <div class="tabs">
+                <a href="#" class="details-btn">Details</a>
+                <a href="#">Code</a>
+                <a href="#">Demo</a>
+            </div>
+        </div>
+        <div class="item">
+            <h3>Project 2</h3>
+            <p>Explore my project. Designed for simplicity and speed</p>
+            <div class="tabs">
+                <a href="#" class="details-btn">Details</a>
+                <a href="#">Code</a>
+                <a href="#">Demo</a>
+            </div>
+        </div>
+        <div class="item">
+            <h3>Project 3</h3>
+            <p>Explore my project. Designed for simplicity and speed</p>
+            <div class="tabs">
+                <a href="#" class="details-btn">Details</a>
+                <a href="#">Code</a>
+                <a href="#">Demo</a>
+            </div>
+        </div>
+        <div class="item">
+            <h3>Project 4</h3>
+            <p>Explore my project. Designed for simplicity and speed</p>
+            <div class="tabs">
+                <a href="#" class="details-btn">Details</a>
+                <a href="#">Code</a>
+                <a href="#">Demo</a>
+            </div>
+        </div>
+        <div class="item">
+            <h3>Project 5</h3>
+            <p>Explore my project. Designed for simplicity and speed</p>
+            <div class="tabs">
+                <a href="#" class="details-btn">Details</a>
+                <a href="#">Code</a>
+                <a href="#">Demo</a>
+            </div>
+        </div>
+        <div class="item">
+            <h3>Project 6</h3>
+            <p>Explore my project. Designed for simplicity and speed</p>
+            <div class="tabs">
+                <a href="#" class="details-btn">Details</a>
+                <a href="#">Code</a>
+                <a href="#">Demo</a>
+            </div>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <!-- Popup for Details -->
+    <div class="popup" id="popup">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <h3>Details</h3>
+        <p>Explore my project. Designed for simplicity and speed</p>
+    </div>
+
+    <!-- contact section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>E-mail : abc@xyz.com <br>
+        Linkdin : in/jhon-doe <br>
+        Feel free to reach out via email or connect with me on social media.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
+<script>
+    // Open Popup Function
+    document.querySelectorAll('.details-btn').forEach(item => {
+    item.addEventListener('click', function() {
+        document.getElementById('popup').classList.add('active');
+        });
+    });
+
+    // Close Popup Function
+    function closePopup() {
+        document.getElementById('popup').classList.remove('active');
+    }
+</script>
+
+</body>
+</html>
