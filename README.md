@@ -1,6 +1,7 @@
-# Dark Theme Portfolio Template
+# Portfolio Template
 
-This repository contains a sleek and modern portfolio website template built with HTML, CSS, and JavaScript. It features a dark theme designed to showcase your projects and personal information effectively. Below is an overview and instructions on how to use and customize the template.
+This repository contains a clean and modern portfolio website template built with HTML, CSS, and JavaScript. It features designed to showcase your projects and personal information effectively.Below is an overview and instructions on how to use and customize the template.
+>>>>>>> main
 
 ## Overview
 
@@ -53,3 +54,7 @@ This template is licensed under the MIT License. See the [LICENSE](LICENSE) file
 ## Support
 
 For any questions or suggestions, feel free to [open an issue](https://github.com/vanu888/portfolio-template/issues) on GitHub.
+
+
+
+
